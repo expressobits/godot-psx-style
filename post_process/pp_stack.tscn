@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cs8d3xn2towo"]
+[gd_scene load_steps=6 format=3 uid="uid://cs8d3xn2towo"]
 
 [ext_resource type="Material" uid="uid://b6irksunrvdek" path="res://addons/godot-psx-style/post_process/blur-post-process_mat.tres" id="1_3emcg"]
 [ext_resource type="Material" uid="uid://bni0eo5gi5ho4" path="res://addons/godot-psx-style/post_process/lcd-overlay_mat.tres" id="2_0v7s0"]
@@ -10,9 +10,6 @@ shader = ExtResource("3_rkbcs")
 shader_parameter/dither_tex = ExtResource("4_05ih0")
 shader_parameter/col_depth = 15.0
 shader_parameter/dither_banding = true
-
-[sub_resource type="Resource" id="Resource_h2fmr"]
-metadata/__load_path__ = "res://addons/godot-psx-style/world/world.tscn"
 
 [node name="Node" type="Node"]
 
